@@ -354,7 +354,10 @@ input[type="checkbox"]{
 
         
 <div class="container">
-  <form action="./action_page.php">
+  <form action="mailto:tariqmosaid0@gmail.com"
+  method="POST"
+enctype="multipart/form-data"
+name="EmailForm">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -371,13 +374,12 @@ input[type="checkbox"]{
       <option value="usa">Ouarzazate</option>
     </select>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="lname">Number phone</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your number">
 
     <input type="submit" value="Submit">
-	<form action="mailto:you@yourwebsite.com">
-
   </form>
+  
 </div>
 
 
